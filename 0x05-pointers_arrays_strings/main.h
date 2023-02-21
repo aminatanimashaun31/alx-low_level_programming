@@ -1,21 +1,17 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * _puts: - prints a string, followed by a
- * new line, to stdout
- * @str: string
- * Return: Return the number of char
- * _puts: - A function that prints a string, followed
- * by a new line, to stdout
- * @str: an input string
- * Return: Nothing
-*/
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 
-void _puts(char *str)
-{
-int i = 0;
-while (str[i])
-while (str[i] != '\0')
-{
-_putchar(str[i]);
-i++;
+#endif
