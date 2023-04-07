@@ -1,31 +1,18 @@
-#include <stdio.h>
-
-#include <stdlib.h>
-
+#include<stdio.h>
 /**
- *
- *  * Description: main - Print out a string to stdout.
- *
- *   * Return: 0 if successfull.
- *
- *    */
-
+ * main - print single digit numbers
+ * Description: print single digit numbers
+ * Return: Always 0 (Success)
+*/
 int main(void)
-
 {
-
-		int i;
-
-
-
-			for (i = 0; i < 10; i++)
-
-						printf("%d", i);
-
-				printf("\n");
-
-
-
-					return (0);
-
+int i;
+i = 48;
+while (i < 58)
+{
+putchar(i);
+i++;
+}
+putchar(10);
+return (0);
 }
